@@ -95,4 +95,8 @@ def check_hitprops_flags(source: Source):
 
 check_hitprops_flags.rule_name = "hitprops-flags"
 
-RULES = [check_hitprops_damage, check_hitprops_element, check_hitprops_flags]
+RULES = [
+    check_hitprops_damage,
+    check_hitprops_element,
+    # check_hitprops_flags,
+]
